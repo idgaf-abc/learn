@@ -3,10 +3,10 @@
 Programmiersprachen bauen auf Datentypen auf. Datentypen beschreiben die Art eines Wertes, also unterscheiden in Zahlen, Wörtern/Sätze, wahr/falsch.
 
 Die wichtigsten Datentypen sind:
-> **String**: Wörter/Sätze immer in "" angegeben.
-> **Integer**: Einzelne Zahlen. Keine Kommazahlen.
-> **Float**: Kommazahlen.
-> **Boolean**: Festgelegte Werte auf true oder false. Kann keine anderen Werte haben.
+> **String**: Wörter/Sätze immer in "" angegeben.\n
+> **Integer**: Einzelne Zahlen. Keine Kommazahlen.\n
+> **Float**: Kommazahlen.\n
+> **Boolean**: Festgelegte Werte auf true oder false. Kann keine anderen Werte haben.\n
 > **Array**: Eine Liste. Meistens mit [] angegeben. Bsp.: ["hallo", 1, 0.1, true]
 
 # Variablen
