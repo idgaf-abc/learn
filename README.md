@@ -187,3 +187,5 @@ switch (gettype($x)) {
 ```
 
 Erklärung: Wir erstellen eine Variable "type" mit dem Standard Wert NULL. Anschließend folgt ein SWITCH-Statement, welches mehrere Fälle für das Return Value der Funktion `gettype($x)` enthält. Ein Fall beginnt mit `case` und dem anschließendem Fall-Wert in "" angegeben. Nach dem ein `:` den nachfolgenden Code für den Fall markiert, folgt der besagte Code für den Fall, und anschließend ein `break` welches das Ende des Falls markiert.
+
+--------------------------------
