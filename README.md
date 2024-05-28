@@ -25,6 +25,8 @@ Die wichtigsten Datentypen sind:
 
 **/** -> Division
 
+**&** -> UND (möglicherweise Abweichender Operator in anderen Sprachen)
+
 # Variablen
 
 Variablen geben Flexibilität in den Code. Abhängig vom Zugänglichkeitsstatus veränderbar und zugänglich. Eine festgelegte Art Variablen festzulegen gibt es nicht, in den meisten Sprachen gibst du es aber nach einem der beiden Schemen an:
