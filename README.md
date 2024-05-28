@@ -39,6 +39,12 @@ Die wichtigsten Datentypen sind:
 
 **--** -> -1
 
+**=** -> Definitionen
+
+**==** -> Vergleiche, nicht Datentyp Abhängig. 1 und "1" wären das gleiche.
+
+**===** -> Vergleiche, Datentyp Abhängig. 1 und "1" wären nicht das gleiche.
+
 # Variablen
 
 Variablen geben Flexibilität in den Code. Abhängig vom Zugänglichkeitsstatus veränderbar und zugänglich. Eine festgelegte Art Variablen festzulegen gibt es nicht, in den meisten Sprachen gibst du es aber nach einem der beiden Schemen an:
