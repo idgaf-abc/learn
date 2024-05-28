@@ -1,4 +1,5 @@
 Beispiele erklärt an PHP
+
 Nur grundlegendes
 
 # Datentypen
