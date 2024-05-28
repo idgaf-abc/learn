@@ -18,8 +18,11 @@ Die wichtigsten Datentypen sind:
 # Operatoren
 
 **+** Addition
+
 **-** Subtraktion
+
 **\*** Multiplikation
+
 **/** Division
 
 # Variablen
