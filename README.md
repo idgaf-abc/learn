@@ -66,15 +66,26 @@ $ar = [
 Funktionen sind Code-Abfolgen. Funktionen laufen chronologisch ab, also von oben nach unten, müssen allerdings nicht in der Reihenfolge fertig sein, in der sie gestartet werden. Abhängig von Computer Resourcen wie z.B. RAM könnten Informationen erst verzögert aus den Funktionen ausgegeben werden. Passiert selten und in nur wenigen Fällen und auch meistens nur in synchronen Abläufen. Ein festes Schema gibt es hier auch nicht, ist also abhängig von der Sprache. Beispiel Funktion (PHP):
 
 ```php
-final public function example(string $str, int $int) :?array {
+final public function example(string $str, int $int = 3) :?array {
     if ($str == "example") return null;
     if ($int == 3) return null;
     return [$str, $int]; 
 }
 ```
+`final` -> Optional, verhindert das überarbeiten der Funktion
 
 `public` -> Funktionszugänglichkeit über andere Klassen
-``
+
+`"example"` -> Funktionsname, frei wählbar, sollte keine Zahlen oder Sonderzeichen enthalten
+
+`"string $str, int $int"` -> Funktionsparameter. Müssen, wenn kein Standardwert angegeben wurde, beim Aufrufen der Funktion angegeben werden, damit die Funktion ordnungsgemäß funktionieren kann.
+
+`":?array"` -> Return Type. Funktionen geben Werte zurück, der ":" markiert den Return Type, der Null Shift Operator markiert einen möglichen NULL Wert als zurückgegebenen Wert und "array" sagt aus, dass ansonsten definitiv ein Array zurück gegeben wird.
+
+`"{...}"` -> Funktionsinhalt. Der Code der ausgeführt werden soll, wenn die Funktion aufgerufen wird. 
+
+`"return [...]"` -> Return Value. Das was nach dem "return" angegeben wird, ist der Wert, den die Funktion zurückgibt, sobald die Funktion endet.
+
 
 # Klassen
 
@@ -83,6 +94,3 @@ Klassen sind Funktionssammlungen, sie bringen Ordnung in den Code und machen das
 # Imports
 
 Um Funktionen aus anderen Klassen nutzen zu können, muss die Klasse, wo sich die Funktion drin befindet, in die Klasse wo du sie nutzen willst importiert werden. Imports werden meistens über der Klasse selber angegeben.
-
-# Statements
-
