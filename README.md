@@ -1,4 +1,5 @@
 Beispiele erklärt an PHP
+Nur grundlegendes
 
 # Datentypen
 
@@ -27,6 +28,8 @@ Die wichtigsten Datentypen sind:
 
 **&** -> UND (möglicherweise Abweichender Operator in anderen Sprachen)
 
+**?** -> NULL-Shift (Abfrage ob ein Wert = NULL ist.)
+
 # Variablen
 
 Variablen geben Flexibilität in den Code. Abhängig vom Zugänglichkeitsstatus veränderbar und zugänglich. Eine festgelegte Art Variablen festzulegen gibt es nicht, in den meisten Sprachen gibst du es aber nach einem der beiden Schemen an:
@@ -54,13 +57,24 @@ $ar = [
     $int,
     $float,
     $tbool,
-    $tfalse
+    $fbool
 ];
 ```
 
 # Funktionen
 
-Funktionen sind Code-Abfolgen. Funktionen laufen chronologisch ab, also von unten nach oben, müssen allerdings nicht in der Reihenfolge fertig sein, in der sie gestartet werden. Abhängig von Computer Resourcen wie z.B. RAM könnten Informationen erst verzögert aus den Funktionen ausgegeben werden. Passiert selten und in nur wenigen Fällen. Ein festes Schema gibt es hier auch nicht, ist also abhängig von der Sprache.
+Funktionen sind Code-Abfolgen. Funktionen laufen chronologisch ab, also von oben nach unten, müssen allerdings nicht in der Reihenfolge fertig sein, in der sie gestartet werden. Abhängig von Computer Resourcen wie z.B. RAM könnten Informationen erst verzögert aus den Funktionen ausgegeben werden. Passiert selten und in nur wenigen Fällen und auch meistens nur in synchronen Abläufen. Ein festes Schema gibt es hier auch nicht, ist also abhängig von der Sprache. Beispiel Funktion (PHP):
+
+```php
+final public function example(string $str, int $int) :?array {
+    if ($str == "example") return null;
+    if ($int == 3) return null;
+    return [$str, $int]; 
+}
+```
+
+`public` -> Funktionszugänglichkeit über andere Klassen
+``
 
 # Klassen
 
@@ -69,3 +83,6 @@ Klassen sind Funktionssammlungen, sie bringen Ordnung in den Code und machen das
 # Imports
 
 Um Funktionen aus anderen Klassen nutzen zu können, muss die Klasse, wo sich die Funktion drin befindet, in die Klasse wo du sie nutzen willst importiert werden. Imports werden meistens über der Klasse selber angegeben.
+
+# Statements
+
