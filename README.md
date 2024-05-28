@@ -15,6 +15,13 @@ Die wichtigsten Datentypen sind:
 
 > **Array**: Eine Liste. Meistens mit [] angegeben. Arrays haben immer wie eine Art Inhaltsverzeichnis durch ein Index sortiert ab 0 oder 1 (abhängig von der Sprache) aufwärts.
 
+# Operatoren
+
+**+** Addition
+**-** Subtraktion
+**\*** Multiplikation
+**/** Division
+
 # Variablen
 
 Variablen geben Flexibilität in den Code. Abhängig vom Zugänglichkeitsstatus veränderbar und zugänglich. Eine festgelegte Art Variablen festzulegen gibt es nicht, in den meisten Sprachen gibst du es aber nach einem der beiden Schemen an:
