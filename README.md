@@ -56,4 +56,4 @@ Klassen sind Funktionssammlungen, sie bringen Ordnung in den Code und machen das
 
 # Imports
 
-Um Funktionen aus anderen Klassen nutzen zu können, muss die Klasse, wo sich die Funktion drin befindet, in die Klasse wo du sie nutzen willst importiert werden
+Um Funktionen aus anderen Klassen nutzen zu können, muss die Klasse, wo sich die Funktion drin befindet, in die Klasse wo du sie nutzen willst importiert werden. Imports werden meistens über der Klasse selber angegeben.
